@@ -4,7 +4,7 @@
 
 Teste. Home do Digital Garden do Obsidian via GH Pages.
 
-[[Publicando!\|Publicando!]]
+[[Novo Grupo/Publicando!\|Publicando!]]
 
 
 Vamos testar uma série de outros tipos de blocos
@@ -19,3 +19,4 @@ Vamos testar uma série de outros tipos de blocos
 - [x] Marque dois aqui
 - [ ] Marque três aqui
 
+[[Novo Grupo/Nova Página\|Nova Página]]
