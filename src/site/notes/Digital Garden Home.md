@@ -20,3 +20,17 @@ Vamos testar uma série de outros tipos de blocos
 - [ ] Marque três aqui
 
 [[Novo Grupo/Nova Página\|Nova Página]]
+
+# 😱🧌 Oh my god, um troll!
+
+## New trolls emerge
+
+[^1]Whats the new about it?
+Everyone nows, [^2]anyways!
+
+
+
+[^1]: Greatest hits.
+
+[^2]: Batatinha quando nasce...
+	Heh:!
