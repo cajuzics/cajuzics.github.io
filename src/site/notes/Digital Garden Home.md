@@ -4,3 +4,4 @@
 
 Teste. Home do Digital Garden do Obsidian via GH Pages.
 
+[[Publicando!\|Publicando!]]
