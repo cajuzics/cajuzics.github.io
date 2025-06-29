@@ -1,7 +1,7 @@
 [
 {
 		"title": "Digital Garden Home",
-		"date":"Sun Jun 29 2025 22:36:12 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Jun 29 2025 22:38:58 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "Teste. Home do Digital Garden do Obsidian via GH Pages.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/novo-grupo/publicando/\">Publicando!</a>\nVamos testar uma série de outros tipos de blocos\n\nVeja, este destaque!\nContents\ne mais contents\n\nMarque um aqui\nMarque dois aqui\nMarque três aqui\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Nova Página</a>",
 		"tags": [ "note","gardenEntry"]
@@ -9,7 +9,7 @@
 
 {
 		"title": "Abaixo desta",
-		"date":"Sun Jun 29 2025 22:36:12 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Jun 29 2025 22:38:58 GMT+0000 (Coordinated Universal Time)",
 		"url":"/grupo/abaixo-desta/",
 		"content": "Heh",
 		"tags": [ "note"]
@@ -17,7 +17,7 @@
 
 {
 		"title": "Publicando!",
-		"date":"Sun Jun 29 2025 22:36:12 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Jun 29 2025 22:38:58 GMT+0000 (Coordinated Universal Time)",
 		"url":"/novo-grupo/publicando/",
 		"content": "Um garfo a partir da <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Digital Garden Home</a>\nSerá mesmo?\níndice\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/grupo/abaixo-desta/\">Abaixo desta</a>\ncomo é, meu brother?",
 		"tags": [ "note"]
