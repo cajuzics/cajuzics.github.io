@@ -25,38 +25,13 @@
 <style></style>
 </head>
 <body class="theme-light markdown-preview-view markdown-rendered markdown-preview-section css-settings-manager mod-windows is-frameless is-maximized is-hidden-frameless is-focused obsidian-app theme-light show-inline-title show-ribbon show-view-header css-settings-manager anp-td-none ctp-rosepine-light ctp-frappe ctp-accent-light-teal ctp-accent-teal anuppuccin-accent-toggle anp-no-highlight anp-callout-sleek anp-callout-color-toggle anp-custom-checkboxes anp-speech-bubble anp-latex-inline-text anp-latex-block-text anp-color-transition-toggle anp-toggle-scrollbars anp-hide-external-link-icon anp-header-color-toggle anp-header-divider-color-toggle anp-h1-red anp-h1-divider anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-red anp-italic-green anp-highlight-yellow anp-colorful-frame anp-file-icons anp-full-rainbow-color-toggle anp-rainbow-file-toggle anp-simple-rainbow-title-toggle anp-simple-rainbow-indentation-toggle anp-safari-tab-toggle anp-disable-newtab-align anp-safari-tab-animated anp-card-layout anp-card-shadows anp-card-layout-actions anp-card-layout-filebrowser">
-<div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
-<div x-show.important="!isDesktop" style="display:none">
 <nav class="navbar">
 <div class="navbar-inner">
-<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i icon-name="menu"></i></span>
 <a href="/" style="text-decoration:none">
 <h1 style="margin:15px!important">Lixonautas</h1>
 </a>
 </div>
 </nav>
-</div>
-<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
-<nav class="filetree-sidebar" x-show.important="isDesktop || showFilesMobile" style="display:none">
-<a href="/" style="text-decoration:none">
-<h1 style="text-align:center">Lixonautas</h1>
-</a>
-<div class="folder" x-data="{isOpen: true}">
-<div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/criacao-de-personagens-tales-from-the-loop/">Criação de Personagens - Tales From the Loop </a>
-</div>
-</div>
-<div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/guias/">Guias </a>
-</div>
-</div>
-<div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Início </a>
-</div>
-</div>
-</div>
-</nav>
-</div>
 <main class="content cm-s-obsidian">
 <header>
 <h1></h1>
