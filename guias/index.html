@@ -24,7 +24,7 @@
 <style>body.css-settings-manager{--tag-radius:2em;--cards-border-width:4px;--anp-cursor:pointer;--anp-editor-font-source:"";--anp-editor-font-lp:"Georgia";--bold-weight:700;--anp-font-live-preview-wt:400;--h1-weight:900;--h1-line-height:1.2;--h2-size:1.9em;--h2-weight:100;--h3-size:1.6em;--h3-weight:700;--h4-weight:700;--h5-weight:700;--h6-size:1.1em;--h6-weight:700;--anp-colorful-frame-opacity:1;--anp-file-label-align:0;--anp-rainbow-folder-bg-opacity:0.9;--anp-stacked-header-width:30px;--anp-alt-tab-custom-height:40px;--anp-depth-tab-opacity:0.6;--anp-depth-tab-gap:10px;--anp-safari-tab-radius:5px;--anp-safari-tab-gap:3px;--anp-card-radius:8px;--anp-card-layout-padding:1px;--anp-border-radius:16px;--anp-border-padding:20px}body.theme-light.css-settings-manager{--ctp-custom-peach:221,127,103;--ctp-custom-teal:26,125,164;--ctp-custom-subtext1:238,101,58;--ctp-custom-subtext0:12,159,206;--ctp-custom-overlay2:82,82,82;--ctp-custom-overlay1:204,204,204;--ctp-custom-overlay0:12,159,206}body.theme-dark.css-settings-manager{--ctp-custom-teal:17,183,197;--ctp-custom-subtext0:251,53,216;--ctp-custom-overlay2:10,209,208;--ctp-custom-overlay1:255,166,0;--ctp-custom-overlay0:76,255,210}</style>
 <style></style>
 </head>
-<body class="theme-light markdown-preview-view markdown-rendered markdown-preview-section filetree-note-icon links-note-icon css-settings-manager mod-windows is-frameless is-maximized is-hidden-frameless is-focused obsidian-app theme-light show-inline-title show-ribbon show-view-header css-settings-manager anp-td-none ctp-rosepine-light ctp-frappe ctp-accent-light-teal ctp-accent-teal anuppuccin-accent-toggle anp-no-highlight anp-callout-sleek anp-callout-color-toggle anp-custom-checkboxes anp-speech-bubble anp-latex-inline-text anp-latex-block-text anp-color-transition-toggle anp-toggle-scrollbars anp-hide-external-link-icon anp-header-color-toggle anp-header-divider-color-toggle anp-h1-red anp-h1-divider anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-red anp-italic-green anp-highlight-yellow anp-colorful-frame anp-file-icons anp-full-rainbow-color-toggle anp-rainbow-file-toggle anp-simple-rainbow-title-toggle anp-simple-rainbow-indentation-toggle anp-safari-tab-toggle anp-disable-newtab-align anp-safari-tab-animated anp-card-layout anp-card-shadows anp-card-layout-actions anp-card-layout-filebrowser">
+<body class="theme-light markdown-preview-view markdown-rendered markdown-preview-section css-settings-manager mod-windows is-frameless is-maximized is-hidden-frameless is-focused obsidian-app theme-light show-inline-title show-ribbon show-view-header css-settings-manager anp-td-none ctp-rosepine-light ctp-frappe ctp-accent-light-teal ctp-accent-teal anuppuccin-accent-toggle anp-no-highlight anp-callout-sleek anp-callout-color-toggle anp-custom-checkboxes anp-speech-bubble anp-latex-inline-text anp-latex-block-text anp-color-transition-toggle anp-toggle-scrollbars anp-hide-external-link-icon anp-header-color-toggle anp-header-divider-color-toggle anp-h1-red anp-h1-divider anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-red anp-italic-green anp-highlight-yellow anp-colorful-frame anp-file-icons anp-full-rainbow-color-toggle anp-rainbow-file-toggle anp-simple-rainbow-title-toggle anp-simple-rainbow-indentation-toggle anp-safari-tab-toggle anp-disable-newtab-align anp-safari-tab-animated anp-card-layout anp-card-shadows anp-card-layout-actions anp-card-layout-filebrowser">
 <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
 <div x-show.important="!isDesktop" style="display:none">
 <nav class="navbar">
@@ -43,15 +43,15 @@
 </a>
 <div class="folder" x-data="{isOpen: true}">
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/criacao-de-personagens-tales-from-the-loop/">Criação de Personagens - Tales From the Loop </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/criacao-de-personagens-tales-from-the-loop/">Criação de Personagens - Tales From the Loop </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/guias/">Guias </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/guias/">Guias </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Início </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Início </a>
 </div>
 </div>
 </div>
