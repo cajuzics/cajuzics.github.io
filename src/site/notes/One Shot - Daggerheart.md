@@ -15,3 +15,4 @@ Por ter sido construída ao redor de um rio, o desenvolvimento de Grande Lachesi
 A cidade não possui um líder único, mas sim um tipo de tribunal com 5 habitantes (chamados oráculos), sendo esses os mais velhos de 5 famílias que estão na cidade desdes os tempos mais remotos (essas famílias sendo ditas as "fundadoras" de Lachesis).
 O lugar em geral vive em harmonia e sem tantos problemas, mas quando surge algum, eles costumam escalar para que os oráculos decidam, em votação, como as resoluções seguirão.
 
+**Qual o número de habitantes da cidade? Ela é habitada por poucas raças ou é um lugar diverso?**
