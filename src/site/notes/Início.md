@@ -3,6 +3,9 @@
 ---
 
 
-| ![IMG_0068.jpg](/img/user/Imagens/IMG_0068.jpg) | **Lixonautas**<br><br>[[One Shot - Daggerheart\|One Shot - Daggerheart]] |
-| ----------------- | ------------------------------------------------ |
-|                   |                                                  |
+| ![[IMG_0068.jpg\|200]] | **Lixonautas**<br><br>[[One Shot - Daggerheart\|One Shot - Daggerheart]] |
+| ---------------------- | ------------------------------------------------ |
+
+
+
+
