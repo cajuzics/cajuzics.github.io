@@ -18,3 +18,10 @@ O lugar em geral vive em harmonia e sem tantos problemas, mas quando surge algum
 **Qual o número de habitantes da cidade? Ela é habitada por poucas raças ou é um lugar diverso?**
 Há aproximadamente 5000 pessoas com residência fixa em Lachesis. Quem caminha pelos bazares que se estendem da entrada por terra até o miolo central da cidade, a vê como a cidade cosmopolita e que funciona como um entreposto comercial: diversa, com espécies vindas de várias partes do continente. Nas periferias e nas áreas de habitação, entretanto, há uma concisão de povos e ali podemos ver que algumas espécies são mais comuns. Humanos, anões e metadílios são prevalescentes nas regiões oeste e no sul, por onde corre o rio e os barcos de comércio se aglutinam. Especificamente nos cais uma comunidade de Kataris se estabeleceu do outro lado do rio. No lado oeste da cidade, próximo à zona comercial, é muito comum se ver drakonas e goblins, sendo que estes últimos possuem boa parte do império de tecelagem da cidade.
 Nos becos do sudoeste, alguns símios ofereciam seus serviços de mercenários. Na última década, há uma presença crescente de Infernis no local. Não é o melhor lugar para passear com o bolso cheio de moedas.
+
+
+### Gancho de Aventura
+
+A caravana guiada por camelos aproxima-se de Lachesis, tendo atravessado a estrada seca e poeirenta do deserto de Lachios. Nas duas carroças que se arrastam debaixo do sol escaldante, acomodam-se sob a sombra do toldo abaulado alguns passageiros comuns: locais que voltam ao lar e viajantes convencionais, chegando na cidade à negócios, para visitar a família, ou a lazer. Entre os passageiros, um pouco usual quacho se destaca. Seu nome é Jalileu e é um visitante recorrente da cidade, na sua função de caixeiro viajante - apesar de não suportar o calor e a aridez local.
+
+![Pasted image 20250722201840.png](/img/user/Pasted%20image%2020250722201840.png)
