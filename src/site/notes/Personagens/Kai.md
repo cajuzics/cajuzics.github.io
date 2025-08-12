@@ -10,7 +10,6 @@ Teria mesmo, hein?
 Kai suspirou. Ele, que por meses teria se contentado com remanescentes comuns, agora se[^1] frustrava sempre que se deparava com um que não estivesse infectado. Os infectados eram os piores: Davam mais trabalho, mas pelo menos ele teria alguma pista do que estava acontecendo com essas máquinas.
 
 ## No Vilarejo das Perdições
-
-
+Inserção de um parágrafo aqui para teste da 
 
 [^1]: Ele jamais teria como contornar essa frustração.
