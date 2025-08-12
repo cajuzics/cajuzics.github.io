@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Funnel';
+  src: url('src/site/styles/user/fonts/funnel-display/FunnelDisplay-SemiBold.ttf') format('ttf');
+  font-weight: semibold;
+  font-style: normal;
+} 
+
 body {
     /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
@@ -10,8 +17,10 @@ body {
     //  h1 {
     //   color: black;
     //  }
-    --h1-font: "PT Serif";
+    --h1-font: Funnel;
     --h2-font: "Comic Sans MS";
+    --h2-font: #2db7b5;
     --h2-font-color: "green";
     --font-text-theme: Consolas;
+    --text-primary: #2db7b5;
 }
