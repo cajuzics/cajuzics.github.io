@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/personagens/kai/"}
+{"dg-publish":true,"permalink":"/personagens/kai/","tags":["daggerheart"]}
 ---
 
 
@@ -7,6 +7,10 @@
 — Nada, hein? - perguntou à mulher gopu que desmontava o remanescente à sua frente.
 — Não. Não me parecia estar infectado. - Ela olhou para a torre de metal que subia ao leste, estendendo um cabo aéreo até o centro do continente. Eles estavam longe demais, para além da periferia do círculo de torres posicionadas em volta da placa-mãe. Se ao menos pudesse se conectar dali, teria informações imediatas. Mas isso teria que esperar.
 Teria mesmo, hein?
-Kai suspirou. Ele, que por meses teria se contentado com remanescentes comuns, agora se frustrava sempre que se deparava com um que não estivesse infectado. Os infectados eram os piores: Davam mais trabalho, mas pelo menos ele teria alguma pista do que estava acontecendo com essas máquinas.
+Kai suspirou. Ele, que por meses teria se contentado com remanescentes comuns, agora se[^1] frustrava sempre que se deparava com um que não estivesse infectado. Os infectados eram os piores: Davam mais trabalho, mas pelo menos ele teria alguma pista do que estava acontecendo com essas máquinas.
 
 ## No Vilarejo das Perdições
+
+
+
+[^1]: Ele jamais teria como contornar essa frustração.
