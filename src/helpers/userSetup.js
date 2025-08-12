@@ -8,4 +8,4 @@ function userEleventySetup(eleventyConfig) {
 }
 exports.userMarkdownSetup = userMarkdownSetup;
 exports.userEleventySetup = userEleventySetup;
-eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/*")
+eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/funnel-display")
