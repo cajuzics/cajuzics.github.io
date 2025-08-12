@@ -10,4 +10,4 @@ Teria mesmo, hein?
 ![character-kai.png|inlL|200](/img/user/Imagens/Personagens/character-kai.png)Kai suspirou. Ele, que por meses teria se contentado com remanescentes comuns, agora se frustrava sempre que se deparava com um que não estivesse infectado. Os infectados eram os piores: Davam mais trabalho, mas pelo menos ele teria alguma pista do que estava acontecendo com essas máquinas.
 Pois ehhhh
 
-## No Vilarejo das Novidades
+## No Vilarejo das Perdições
