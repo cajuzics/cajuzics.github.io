@@ -43,31 +43,24 @@
 }
 
 @font-face {
-    font-family: 'Inter18';
-    src: url('/styles/user/fonts/inter/Inter_18pt-Regular.ttf') format('truetype');
+    font-family: 'Linik';
+    src: url('/styles/user/fonts/linik/LinikSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Inter18';
-    src: url('/styles/user/fonts/inter/Inter_18pt-Italic.ttf') format('truetype');
+    font-family: 'Linik';
+    src: url('/styles/user/fonts/linik/LinikSans-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Inter18';
-    src: url('/styles/user/fonts/inter/Inter_18pt-Bold.ttf') format('truetype');
+    font-family: 'Linik';
+    src: url('/styles/user/fonts/linik/LinikSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Inter18';
-    src: url('/styles/user/fonts/inter/Inter_18pt-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
 }
 
 body {
@@ -83,5 +76,5 @@ body {
     --h5-color: #a577d9;
     --h6-font: "Funnel";
     --h6-color: #a577d9;
-    --font-text-theme: "Inter18";
+    --font-text-theme: "Linik";
 }
