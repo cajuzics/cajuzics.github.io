@@ -125,7 +125,7 @@ Mais anos.
 Os edinhos caíam na conta de Isabella. Mas talvez isso não fosse o suficiente. Talvez, estar longe, estar na estrada, pegando trabalhos de contrabando arriscados não fosse uma solução. Talvez fosse o problema. O crime crescia ao seu redor, cada vez mais, e aquilo era cansativo. Quantas vezes ele não viu um colega ser baleado, perder a vida? Quantas vezes não viu ele próprio quase perder a própria vida? E quanto tempo mesmo fazia que ele não via o filho?
 ## Tal pai, tal filho.
 
-![Pasted image 20250813172812.png|right ----|420](/img/user/Pasted%20image%2020250813172812.png)Cinco voltou pra Night City. E quanto tempo fazia? Ele viu o menino com 10 anos de idade. E agora ele tinha… 14? A idade que ele tinha quando se juntou à sua família nômade. O menino não estava em casa, estava na rua. Isabella parecia tão mais velha. Cansada. Parecia que décadas se passaram.
+![character_mathias.png|right ----|420](/img/user/Imagens/Personagens/character_mathias.png)Cinco voltou pra Night City. E quanto tempo fazia? Ele viu o menino com 10 anos de idade. E agora ele tinha… 14? A idade que ele tinha quando se juntou à sua família nômade. O menino não estava em casa, estava na rua. Isabella parecia tão mais velha. Cansada. Parecia que décadas se passaram.
 
 — Matías vai ficar feliz em te ver. - ela disse, seco.
 
