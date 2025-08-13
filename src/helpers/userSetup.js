@@ -8,6 +8,7 @@ function userEleventySetup(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/avara/*");
   eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/funnel-display/*");
   eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/unifraktur/*");
+  eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/volumetc/*");
 }
 exports.userMarkdownSetup = userMarkdownSetup;
 exports.userEleventySetup = userEleventySetup;
