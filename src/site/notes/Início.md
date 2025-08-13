@@ -3,11 +3,10 @@
 ---
 
 <html>
-<body style="background: https://img2.wikia.nocookie.net/__cb20130828015956/tmnt/images/3/34/Cowabunga.jpg; background-color: #171718;">
-COWABANGA!
+<body style="background-color: #171718;">
 </body>
 </html>
 
 
 
-
+![zoinhos.png](/img/user/Imagens/zoinhos.png)
