@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: 'Funnel';
-    src: url('/styles/user/fonts/funnel-display/FunnelDisplay-Bold.ttf') format('truetype');
+    src: url('/styles/user/fonts/funnel-display/FunnelDisplay-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -72,6 +72,12 @@ body {
     --font-text-theme: "Linik";
 }
 
-navbar {
+.navbar {
     justify-content: center;
+    background-color: #171718;
+    font-size: 2em;
+}
+
+.markdown-preview-view {
+    padding-top: 120px;
 }
