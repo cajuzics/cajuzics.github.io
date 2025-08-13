@@ -7,6 +7,7 @@ function userEleventySetup(eleventyConfig) {
   // Feel free to add any plugin you want here instead of /.eleventy.js
   eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/avara/*");
   eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/funnel-display/*");
+  eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/inter/*");
   eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/unifraktur/*");
   eleventyConfig.addPassthroughCopy("src/site/styles/user/fonts/volumetc/*");
 }
