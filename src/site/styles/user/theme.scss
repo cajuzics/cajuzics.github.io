@@ -11,6 +11,21 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'VolumeTC';
+    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VolumeTC';
+    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolidItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 */
 
 @font-face {
@@ -28,21 +43,36 @@
 }
 
 @font-face {
-    font-family: 'VolumeTC';
-    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolid.otf') format('opentype');
+    font-family: 'Inter18';
+    src: url('/styles/user/fonts/inter/Inter_18pt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'VolumeTC';
-    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolidItalic.otf') format('opentype');
+    font-family: 'Inter18';
+    src: url('/styles/user/fonts/inter/Inter_18pt-Italic.ttf') format('truetype');
     font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter18';
+    src: url('/styles/user/fonts/inter/Inter_18pt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter18';
+    src: url('/styles/user/fonts/inter/Inter_18pt-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
     font-style: italic;
 }
 
 body {
     --h1-font: "UnifrakturCook";
+    --h1-size: 2.5em;
     --h2-font: "Funnel";
     --h2-color: #a577d9;
     --h3-font: "Funnel";
@@ -53,5 +83,5 @@ body {
     --h5-color: #a577d9;
     --h6-font: "Funnel";
     --h6-color: #a577d9;
-    --font-text-theme: "VolumeTC";
+    --font-text-theme: "Inter18";
 }
