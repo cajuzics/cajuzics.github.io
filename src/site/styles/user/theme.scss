@@ -1,3 +1,5 @@
+//FONTES NÃO UTILIZADAS
+/*
 @font-face {
   font-family: 'Avara_Black';
   src:    url('/styles/user/fonts/avara/Avara-Black.eot');
@@ -11,25 +13,38 @@
 }
 
 @font-face {
+    font-family: 'UnifrakturCook';
+    src: url('/styles/user/fonts/unifraktur/UnifrakturCook-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+
+@font-face {
     font-family: 'Funnel';
     src: url('/styles/user/fonts/funnel-display/FunnelDisplay-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
-    font-family: 'UnifrakturCook';
-    src: url('/styles/user/fonts/unifraktur/UnifrakturCook-Bold.ttf') format('truetype');
+    font-family: 'VolumeTC';
+    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolidLight.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-} 
+}
+
+@font-face {
+    font-family: 'VolumeTC';
+    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolidItalicLight.otf') format('otf');
+    font-weight: normal;
+    font-style: italic;
+}
 
 body {
-    --h1-font: "UnifrakturCook";
-    --h1-color: #ff2b2b;
+    --header-font: "Funnel";
+    --h1-font: "Funnel";
     --h2-font: "Funnel";
-    --h2-color: #ff2b2b;
-    --h3-font: "Avara_Black";
-    --h3-color: #ff2b2b;
-    --font-text-theme: Inter;
+    --h2-color: #7b9fad;
+    --font-text-theme: "VolumeTC";
 }
