@@ -11,6 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
+*/
 
 @font-face {
     font-family: 'UnifrakturCook';
@@ -18,8 +19,6 @@
     font-weight: normal;
     font-style: normal;
 }
-*/
-
 
 @font-face {
     font-family: 'Funnel';
@@ -27,24 +26,32 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'VolumeTC';
-    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolidLight.otf') format('opentype');
+    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolid.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'VolumeTC';
-    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolidItalicLight.otf') format('otf');
+    src: url('/styles/user/fonts/volumetc/VolumeTC-RusticSolidItalic.otf') format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 body {
-    --header-font: "Funnel";
-    --h1-font: "Funnel";
+    --h1-font: "UnifrakturCook";
     --h2-font: "Funnel";
-    --h2-color: #7b9fad;
+    --h2-color: #a577d9;
+    --h3-font: "Funnel";
+    --h3-color: #a577d9;
+    --h4-font: "Funnel";
+    --h4-color: #a577d9;
+    --h5-font: "Funnel";
+    --h5-color: #a577d9;
+    --h6-font: "Funnel";
+    --h6-color: #a577d9;
     --font-text-theme: "VolumeTC";
 }
