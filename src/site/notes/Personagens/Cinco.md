@@ -4,7 +4,7 @@
 
 ## 2061.
 
-— Tá levando o que, moleque?
+![character-cinco.png|left ----|420](/img/user/Imagens/Personagens/character-cinco.png)— Tá levando o que, moleque?
 
 Com dificuldade, ele respondeu, a mandíbula raspando na calçada quente de Santo Domingo e as costas pressionadas pelo joelho do porco. Devia ser homem da lei da área. Não importa, ele não conseguiu ver a farda antes de tomar a pancada.
 
@@ -122,7 +122,7 @@ E quando voltava, o menino parecia mais e mais com ele.
 
 Mais anos.
 
-![character-cinco.png|left ----|300](/img/user/Imagens/Personagens/character-cinco.png)Os edinhos caíam na conta de Isabella. Mas talvez isso não fosse o suficiente. Talvez, estar longe, estar na estrada, pegando trabalhos de contrabando arriscados não fosse uma solução. Talvez fosse o problema. O crime crescia ao seu redor, cada vez mais, e aquilo era cansativo. Quantas vezes ele não viu um colega ser baleado, perder a vida? Quantas vezes não viu ele próprio quase perder a própria vida? E quanto tempo mesmo fazia que ele não via o filho?
+Os edinhos caíam na conta de Isabella. Mas talvez isso não fosse o suficiente. Talvez, estar longe, estar na estrada, pegando trabalhos de contrabando arriscados não fosse uma solução. Talvez fosse o problema. O crime crescia ao seu redor, cada vez mais, e aquilo era cansativo. Quantas vezes ele não viu um colega ser baleado, perder a vida? Quantas vezes não viu ele próprio quase perder a própria vida? E quanto tempo mesmo fazia que ele não via o filho?
 ## Tal pai, tal filho.
 
 Cinco voltou pra Night City. E quanto tempo fazia? Ele viu o menino com 10 anos de idade. E agora ele tinha… 14? A idade que ele tinha quando se juntou à sua família nômade. O menino não estava em casa, estava na rua. Isabella parecia tão mais velha. Cansada. Parecia que décadas se passaram.
