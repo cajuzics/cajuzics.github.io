@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Funnel';
+    src: url('src/site/styles/user/fonts/funnel-display/FunnelDisplay-SemiBold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body {  
+    --h1-font: Funnel;
+    --h2-font: "Comic Sans MS";
+    --h2-color: #2db7b5;
+    --h3-font: "Funnel";
+    --h3-color: #e04eed;
+    --font-text-theme: Inter;
+}
