@@ -13,7 +13,8 @@ Kai suspirou. Ele, que por meses teria se contentado com remanescentes comuns, a
 Inserção de um parágrafo aqui para teste da , de forma um pouco mais substancial!!
 
 ### Um header 3.
-
+- [ ] Quanto tempo se passou desde de que...
+- [b] ...nós nos encontramos naquela tarde de agosto
 
 
 
