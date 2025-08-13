@@ -72,12 +72,12 @@ body {
     --font-text-theme: "Linik";
 }
 
-.navbar {
+body.navbar {
     justify-content: center;
     background-color: #171718;
     font-size: 2em;
 }
 
-.markdown-preview-view {
+body.markdown-preview-view {
     padding-top: 120px;
 }
