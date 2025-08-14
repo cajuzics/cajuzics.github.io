@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/personagens/chuzmo/","tags":["vampiro"]}
+{"dg-publish":true,"permalink":"/personagens/chuzmo/","tags":["vampiro"],"dgShowFileTree":true}
 ---
 
 
