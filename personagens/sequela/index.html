@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
 <head>
-<title>Cinco</title>
+<title>Sequela</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -66,90 +66,34 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-08-14T22:18:35.854Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-08-14T22:18:35.854Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-08-14T22:18:35.854Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Cinco</h1>
+<h1 data-note-icon="">Sequela</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#cyberpunk
+#DnD
 </a>
 </div>
 </div>
 </header>
-<h2 id="2061" tabindex="-1">2061.</h2>
-<p><picture src="/img/user/Imagens/Personagens/character-cinco.png" alt="character-cinco.png|left ----|420" width="420px"><source media="(max-width:480px)" srcset="/img/optimized/Ydat_VU1vC-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/Ydat_VU1vC-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/Ydat_VU1vC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Ydat_VU1vC-700.jpeg"><img class="" src="/img/user/Imagens/Personagens/character-cinco.png" alt="character-cinco.png|left ----|420" width="420px"></picture>— Tá levando o que, moleque?</p>
-<p>Com dificuldade, ele respondeu, a mandíbula raspando na calçada quente de Santo Domingo e as costas pressionadas pelo joelho do porco. Devia ser homem da lei da área. Não importa, ele não conseguiu ver a farda antes de tomar a pancada.</p>
-<p>— Nada - saiu, cerrado, sem fôlego. O outro porco se aproxima e lhe dá uma bicuda no meio das suas pernas estendidas no chão.Um grito seco escapa da sua garganta. Tinha sido uma pergunta retórica. Tanto faz, eles já estavam abrindo a mochila mesmo.</p>
-<p>— Nada, é? E isso daqui, foi obra da pessoa que você roubou? - Um dedão enluvado apareceu no seu campo de visão e apertou o hematoma no seu olho. Dessa vez ele segurou o gemido de dor e não respondeu nada.</p>
-<p>&quot;<em>Não, caralho</em>.&quot; O menino pensou. Isso foi da noite passada. O merda bêbado do seu pai havia dado um tapa na sua mãe e então o menino deu um soco no desgraçado. Pra receber um outro de troco, bem no olho.</p>
-<p>Mas ele não queria pensar nisso. Ouviu o zíper da bolsa sendo aberta ao lado e virou os olhos o quanto pode, na direção do porco fardado. Porra. Era um corpe. Um segurança corporativo? Em Santo Domingo? Merda, merda! Que dia de merda pra tentar passar escondido pelo bloqueio. Ele não sabia o que tinha na mochila, só falaram pra ele entregar. Era isso que ele fazia. Entregava. Sem perguntas, só fazer o serviço. Era o melhor que Cinco, ou Kenai Navarro Trujillo, conseguia no auge dos seus 14 anos de idade. E agora ele tinha se dado mal… Ah, se tinha… O soco do velhote na cara não ia ser nada comparado com a merda que ele ia enfrentar agora.</p>
-<p>— Que porr… - ele ouviu o corpe com a bolsa começar a falar.</p>
-<p>— Cuidado! - o outro gritou.</p>
-<p>E então o mundo explodiu em tiros de automáticas, carros derrapando e granadas lançadas. O peso das suas costas sumiu e ele sabia o que tinha que fazer. Igual um rato que se solta da ratoeira, ele precisava viver. Gritos, risadas, disparos. Uns malucos estavam atacando os corpes quando ele se rastejou pra longe. Pensou em tentar pegar a mochila, mas porra… Só se ele quisesse ir dessa pra melhor. E agora?</p>
-<p>— O fedelho tá fugindo! - um dos corpes gritou. E essa foi a deixa. Era melhor vazar dali logo.</p>
-<h2 id="isabella" tabindex="-1">Isabella.</h2>
-<p>Nem fodendo voltar pra casa. Não só tinha o pai, como também o negociador ia atrás, pra saber o que tinha acontecido com a mochila. Mas não era culpa dele. Ele não deveria estar fazendo serviços tão perigosos assim, porra. Nunca foi o combinado. Peças contrabandeadas e drogas, no máximo isso. O que quer que tava naquela mochila, não era só isso.</p>
-<p>De toda forma, Cinco sabia de uma coisa: Era melhor agir primeiro e pedir depois. Abriu a janela e passou as pernas por cima. Ia pulando pra dentro da casa, quando ela apareceu.</p>
-<p>— Cinco? Que porra é essa?</p>
-<p>— Posso dormir aqui?</p>
-<p>— Não, caralho. Nem fodendo.</p>
-<p>— Qual é? Eu tô sem teto hoje. Só essa noite.</p>
-<p>— Pra você tentar gracinha comigo? Não.</p>
-<p>Ele suspirou. Ia se dar por vencido e vazar dali, procurar um banco de rua confortável. Ela mediu ele de ponta a ponta. <em>Caralho, ele tava todo fodido. Machucado, sujo</em>. E ela mudou de ideia. — Entra. Você fica na sala. E sem gracinha, ou eu mudo de ideia.</p>
-<hr>
-<p>Ele tomou banho e sentou no sofá da sala. Ela tinha deixado curativos na mesa de centro. Não precisava disso tudo, mas ele pegou uma pomada para dor e tentou passar nas suas costelas. Merda, como doiam!</p>
-<p>— Deixa comigo - ela disse. - Caralho, Cinco, o que você andou fazendo?</p>
-<p>— Fui pego no meio de um tiroteio entre uns corpes e alguma gangue. Tive que me jogar por cima de um carro pra sair da linha de tiro, e acho que me machuquei. - Ele sentiu ela parar de passar a pomada. É claro que ela não acreditava nele.</p>
-<p>O nome dela era Isabella e ela era um ano mais velha que ele. Os dois não eram namorados nem nada, só se conheciam desde criança. Os pais dela tinham morrido numa explosão dois anos atrás. E ela tava se mantendo firme, ali. Vivendo honestamente, mas com pouco… Sabe-se lá como. A casa era arrumada, um refúgio longe do inferno lá fora.</p>
-<p>— Prontinho. - ela se levantou. - Escuta, eu não quero parecer grossa… Mas eu vou precisar que você saia logo de manhã. Eu vou sair pro trabalho e não quero…</p>
-<p>— Tá. Eu entendo. - ele falou com a voz distante.</p>
-<p>Ela olhou pra ele, desconsolado, e se sentou de novo. Ele olhou e riu.</p>
-<h2 id="a-mochila" tabindex="-1">A mochila.</h2>
-<p>Sim, a noite passada tinha sido muito boa. Boa pra caramba mesmo. Ele se sentia toda a pampa, mas ao mesmo tempo precisava resolver o lance da mochila. Ele tinha conseguido seguir uma garota - que ele tem certeza que viu no meio do tiroteio. Alma suicida? Provavelmente. Mas caralho, a noite passada tinha sido demais e agora ele estava confiante. Precisava resolver isso.</p>
-<p>Abaixou o capuz sobre os olhos enquanto andava. Não estava em território de gangue, mas queria se manter seguro. Viu a garota entrar num bar. Ele entrou atrás dela.</p>
-<p>E quando abriu a porta…</p>
-<p>UM CANO BEM NA SUA CARA.</p>
-<p>— Hahah. Que gracinha você.</p>
-<p>— Eu… eu entrei no lugar errado…</p>
-<p>— Não, não entrou não. Você tava me seguindo. <em>Nacho</em>, olha só quem tava me seguindo. Hahah.</p>
-<p><em>Nacho</em>? Caralho! O Nacho? Porra. Ele olhou e viu o solo sentado no fundo, junto com mais uns capangas. Ele sorriu pro menino.</p>
-<p>— Cinco, chega mais. Precisamos te pagar.</p>
-<p>O menino não entendia nada.</p>
-<p>— Mas a mochila… Eu perdi… - ele olhou pros outros capangas - Eles… eles pegaram!</p>
-<p>O solo deu um murro no seu ombro.</p>
-<p>— Idiota. Você acha mesmo que a gente ia te deixar sozinho? Mandei um pessoal te seguir. Na hora que vimos aqueles corpes pegar a mochila, a gente abriu fogo pra cima deles. Mas enfim… Não foi um trabalho limpo, mas o principal você fez. Passou a mochila pelo bloqueio.</p>
-<p>— Mas…</p>
-<p>— Cala a boca, eu vou pedir um suco pra você.</p>
-<p>— Suco?</p>
-<p>— HA HA. Moleque, você tem que criar muito culhão ainda.</p>
-<h2 id="on-the-road" tabindex="-1">On the Road.</h2>
-<p>Os capangas eram nômades. Cinco foi benquisto ali, e eles aceitaram ele como uma família. Quando perguntaram se ele tinha casa, a imagem do seu pai com uma névoa de álcool ao seu redor veio à sua mente e ele foi pragmático em responder: Minha casa é a rua.</p>
-<p>Os serviços vieram, e Cinco foi aprendendo. Foi pegando culhão.</p>
-<p>E então veio Matías. Ele ficou sabendo só depois que o menino nasceu, quase um ano depois. Que coisa… Uma noite e agora ele tinha um filho… Ele ficou sem jeito. Mas pegou a criança nos braços e sorriu. Nacho, o solo, olhou para a cena: Uma criança segurando outra. Pelo menos agora o menino tinha bons serviços, e podia dar uma grana para sustentar o pivete, ainda que não fosse na melhor das condições.</p>
-<p>E assim foi. Cinco pegou a estrada, vivendo com os nômades. Às vezes, visitava sua mãe, sempre que podia voltava para ver Matías. O menino crescia cada vez mais rápido. E cada vez mais, parecia com ele mesmo. Isso era ainda mais assustador. Cinco precisava de grana. Mais grana. Ele tinha planos pro menino. O menino precisava ficar longe das ruas, longe desse mundo dele.</p>
-<p>E pegou mais trabalhos.</p>
-<p>Mais ilícitos.</p>
-<p>Mais longos.</p>
-<p>Mais longes.</p>
-<p>Mais dias sem ver Matías.</p>
-<p>Mais semanas.</p>
-<p>Mais meses.</p>
-<p>E quando voltava, o menino parecia mais e mais com ele.</p>
-<p>Mais anos.</p>
-<p>Os edinhos caíam na conta de Isabella. Mas talvez isso não fosse o suficiente. Talvez, estar longe, estar na estrada, pegando trabalhos de contrabando arriscados não fosse uma solução. Talvez fosse o problema. O crime crescia ao seu redor, cada vez mais, e aquilo era cansativo. Quantas vezes ele não viu um colega ser baleado, perder a vida? Quantas vezes não viu ele próprio quase perder a própria vida? E quanto tempo mesmo fazia que ele não via o filho?</p>
-<h2 id="tal-pai-tal-filho" tabindex="-1">Tal pai, tal filho.</h2>
-<p><picture src="/img/user/Imagens/Personagens/character_mathias.png" alt="character_mathias.png|right ----|420" width="420px"><source media="(max-width:480px)" srcset="/img/optimized/dVBUS2ZdOA-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/dVBUS2ZdOA-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/dVBUS2ZdOA-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/dVBUS2ZdOA-700.jpeg"><img class="" src="/img/user/Imagens/Personagens/character_mathias.png" alt="character_mathias.png|right ----|420" width="420px"></picture>Cinco voltou pra Night City. E quanto tempo fazia? Ele viu o menino com 10 anos de idade. E agora ele tinha… 14? A idade que ele tinha quando se juntou à sua família nômade. O menino não estava em casa, estava na rua. Isabella parecia tão mais velha. Cansada. Parecia que décadas se passaram.</p>
-<p>— Matías vai ficar feliz em te ver. - ela disse, seco.</p>
-<p>— É… Faz um tempo né?</p>
-<p>— Faz.</p>
-<p>A tarde se esticou e o menino não apareceu. Foi chegar depois da janta.</p>
-<p>Caralho, ele estava parecido com o pai.</p>
-<p>Parecido demais.</p>
-<p>E aquilo era tenebroso.</p>
-<p>Um calafrio se espalhou pela espinha de Cinco quando notou nos trejeitos do filho que ele estava… Ele estava seguindo os mesmos passos do pai…</p>
+<p><picture src="/img/user/Imagens/Personagens/character-sequela.webp" alt="character-sequela.webp|left ----|420" width="420px"><source media="(max-width:480px)" srcset="/img/optimized/xl11o65cMd-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/xl11o65cMd-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/xl11o65cMd-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/xl11o65cMd-700.jpeg"><img class="" src="/img/user/Imagens/Personagens/character-sequela.webp" alt="character-sequela.webp|left ----|420" width="420px"></picture>&quot;Não largo meu bom e velho cachimbo. Com uma tragada, um mundo se abre diante dos meus olhos.&quot;</p>
+<p>Sequela nasceu em outro planeta. Apesar de Halruaa<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> ser uma terra originalmente de Toril, por 100 anos ela esteve alocada em o seu planeta-gêmeo, Abeir. Halruaa voltou a Toril em 1487 DR, quando Sequela já estava no final da sua adolescência</p>
+<p>Sequela estudou em escolas públicas de Halruaa até os 13 anos de idade. Sendo uma sociedade altamente devotada às artes mágicas, o garoto iniciou então seus estudos arcanos, sendo o 14º filho da família a se tornar um mago.</p>
+<p>Sequela, entretanto, não poderia ser menos diferente que a sua família. Enquanto todos ao seu redor eram devotos de Mystra, Sequela era um cético em relação ao seu próprio deus Azuth. Ele também não parecia ligar tanto para os costumes Halruaanianos nem para os estudos quanto os seus parentes, sendo visto como o pior mago da família, e constantemente tratado como uma pária. Sequela, no entanto, não ligava. Enquanto seus irmãos e irmãs evocavam familiares etéreos, feitos apenas da trama da magia, e pouco pareciam ligar para essas criaturas, Sequela era capaz de invocar uma criatura verdadeira, logo aos 14 anos de idade: Vilão, o macaco voador, que se tornou o seu melhor amigo.</p>
+<p>Observando Vilão viajar grandes distâncias com suas asas e sua curiosidade, Sequela percebeu exatamente o que queria. Ele não queria ser o maior mago da família. Ele não queria se profissionalizar como um lutador arcano, e menos ainda como um acadêmico respeitado. Halruaa, essa bendita terra onde a magia dita até mesmo seu poder de ascensão social, não era o seu lugar.</p>
+<p>Sequela tampouco tinha ninguém para vingar, nenhuma terra para salvar. Se fosse se aventurar, seu propósito seria o belprazer: A única vontade de Sequela era ser como Vilão. Livre, leve, suave. E foi então que sua maior missão se tornou conhecer o mundo. Em uma manhã, a família de Sequela ficou horrorizada diante de um bilhete: o garoto havia abandonado Halruaa para viajar pelos reinos e descobrir cheiros, gostos, ares diferentes.</p>
+<h2 id="as-viagens-de-sequela" tabindex="-1">As viagens de Sequela</h2>
+<p><picture src="/img/user/Imagens/Personagens/Outros/5000_milhas.webp" alt="5000_milhas.webp"><source media="(max-width:480px)" srcset="/img/optimized/PWoKL7WgcC-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/PWoKL7WgcC-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/PWoKL7WgcC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/PWoKL7WgcC-700.jpeg"><img class="" src="/img/user/Imagens/Personagens/Outros/5000_milhas.webp" alt="5000_milhas.webp" width=""></picture></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://forgottenrealms.fandom.com/wiki/Halruaa" target="_blank" class="external-link">https://forgottenrealms.fandom.com/wiki/Halruaa</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <style>#tooltip-wrapper{background:var(--background-primary);padding:1em;border-radius:4px;overflow:hidden;position:fixed;width:80%;max-width:400px;height:auto;max-height:300px;font-size:.8em;box-shadow:0 5px 10px rgba(0,0,0,.1);opacity:0;transition:opacity .1s;unicode-bidi:plaintext;overflow-y:scroll;z-index:10}#tooltip-wrapper:after{content:"";position:absolute;z-index:1;bottom:0;left:0;pointer-events:none;width:100%;unicode-bidi:plaintext;height:75px}</style>
 <div style="opacity:0;display:none" id="tooltip-wrapper">
