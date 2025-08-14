@@ -19,13 +19,13 @@ A academia estava tranquila. Quase silenciosa, não fossem os chutes de Kai no s
 
 — Toma isso, seu remanescente podre! - uma mão minúscula fechada em punho golpeou suas omoplatas e escorregou no suor.
 
-Kai virou os braços, dando risada, e pegou o menino de 8 anos pelo tronco. A criaturinha se debateu e esperneou, dando gritos de empolgação, antes de ser colocava sentada em uma mesa ao lado do tanque de água. O menino sorriu, dois dentes faltando. Era uma criança gopu, perfeita como qualquer outra, com exceção de uma das pernas. Ela era feita de metal. Feita por mecanistas do vilarejo, com componentes que o próprio Kai havia retirado dos remanescentes. A perna era uma marca de 2 anos atrás, quando o menino decidiu em suas traquinagens, tentar escalar sozinho uma das torres.
+Kai virou os braços, dando risada, e pegou o menino de 8 anos pelo tronco. A criaturinha, que atendia pelo nome de Bao-Bao, se debateu e esperneou, dando gritos de empolgação, antes de ser colocava sentada em uma mesa ao lado do tanque de água. O menino sorriu, dois dentes faltando. Era uma criança gopu, perfeita como qualquer outra, com exceção de uma das pernas. Ela era feita de metal. Feita por mecanistas do vilarejo, com componentes que o próprio Kai havia retirado dos remanescentes. A perna era uma marca de 2 anos atrás, quando o menino decidiu em suas traquinagens, tentar escalar sozinho uma das torres.
 
 — E o que esse temido guerreiro matador de remanescentes veio fazer aqui? Sua mãe sabe que você escapou de novo? - Kai perguntou, abaixado, enquanto jogava água no próprio corpo para se refrescar. Ele não viu o menino balançar a cabeça, mas sabia que ele tinha feito um _"não"_ com o sorriso banguela.
 
 — Eu vim treinar. Vim ficar forte.
 
-— Você não vai ficar forte se não fizer seus deveres e comer bem, Bao-Bao. Anda. Vamos pra casa.
+— Você não vai ficar forte se não fizer seus deveres e comer bem. Anda. Vamos pra casa.
 
 O menino pulou da mesa para o chão com naturalidade. "É. Talvez ele fique igual eu mesmo", pensou Kai. Isso seria uma tristeza para a mãe, que queria ver o menino seguir no caminho dos estudos. O garoto foi andando saltitante à frente, a cauda enérgica balançando entre cada salto. Eles atravessaram as ruas do calmo vilarejo no topo da montanha. Um dos vizinhos de Kai guiava um pequeno grupo de cabras - uns dos poucos animais que sobraram nesses tempos. Bao-bao seguiu brincando e fazendo carinho nos animais, enquanto Kai o acompanhava.
 
