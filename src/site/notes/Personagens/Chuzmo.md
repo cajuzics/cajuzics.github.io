@@ -97,3 +97,19 @@ Quando Chuzmo se afastou semanas atrás, ele achou que o menino estava sentindo 
 ![Sem_titulo_-_2_de_abril_de_2024_22.42_2.webp|left ----|280](/img/user/Imagens/Personagens/Outros/Sem_titulo_-_2_de_abril_de_2024_22.42_2.webp)Há alguns meses Shan se envolveu romanticamente com Chuzmo, um cafajeste infeliz. Ele comprou brincos para ela, eles jantaram juntos, ela foi para a cama dele e duas semanas depois ele estava saindo com outra? Shantel tentou ter um filho com Chuzmo, mas não conseguiu, e agora está irritada. Se ao menos ela tivesse sido mais rápida, poderia ter dito que ele tinha agredido ela, mas não… as pessoas não iam acreditar que Chuzmo teria feito isso… Ela precisa de um plano melhor.
 
 Sinceramente, quem ele pensa que é? Um manézinho que tem uma esquina. Shantel está tomando cuidado, mas Chuzmo vai pagar. Ah, se vai.
+
+
+
+
+
+
+
+
+
+
+
+---
+
+[[Personagens/_personagens\|Personagens]]
+
+
