@@ -147,6 +147,4 @@ Um calafrio se espalhou pela espinha de Cinco quando notou nos trejeitos do filh
 
 
 ---
-<html>
-<p style="font-size: 10pt; font-face:'UnifrakturCook'; text-align=end;"><a href="https://cajuzics.github.io/personagens/personagens/">/personagens</a></p>
-</html>
+###### [[Personagens/_personagens\|_personagens]]

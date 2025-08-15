@@ -4,9 +4,7 @@
 
 
 ### Primeiras impressões
-![character-totonaco.webp|left ----|420](/img/user/Imagens/Personagens/character-totonaco.webp)Totonaco é um jovem bárbaro que não impressiona muito na primeira vista. Ele é baixinho e tem uma constituição não muito pronunciada, e usa roupas típicas da sua tribo (_clã_), que consiste em penas, tiras de couro, adereços dourados e pinturas que servem para identificá-lo como um lutador, do rank mais baixo, da sua comunidade. O mais diferente em Totonaco certamente é o seu rabo de onça. Não há nada de funcional nele, e Totonaco teve que conviver com isso, atraindo olhares sempre curiosos daqueles que vivem em sua comunidade (ele é o único morfos em uma comunidade de humanos) - olhares de reprovação, e também olhares de interesse das moças mais novas (que Totonaco nunca conseguiu capitalizar pois é um pouco retraído e desajeitado). Apesar de diferente, ele se sente confortável onde está.
-
-Sendo um bárbaro, Totonaco entra em fúria. Mas ao contrário dos bárbaros do norte, cuja fúria se manifesta em gritos, rosnados e uma explosão de energia no corpo, a fúria de Totonaco parece acontecer na alma, de forma silenciosa: Seu corpo se retrai, ele puxa sua respiração para dentro, fechando os olhos, e quando seus olhos se abrem, estão brilhando como dois topázios de um azul claro vibrante, e entre seus lábios caninos afiados se exibem.
+![character-totonaco.webp|left ----|420](/img/user/Imagens/Personagens/character-totonaco.webp)Totonaco é um jovem bárbaro que não impressiona muito na primeira vista. Ele é baixinho e tem uma constituição não muito pronunciada, e usa roupas típicas da sua tribo (_clã_), que consiste em penas, tiras de couro, adereços dourados e pinturas que servem para identificá-lo como um lutador, do rank mais baixo, da sua comunidade. O mais diferente em Totonaco certamente é o seu rabo de onça. Não há nada de funcional nele, e Totonaco teve que conviver com isso, atraindo olhares sempre curiosos daqueles que vivem em sua comunidade (ele é o único morfos em uma comunidade de humanos) - olhares de reprovação, e também olhares de interesse das moças mais novas (que Totonaco nunca conseguiu capitalizar poi [[Personagens/Totonaco\|Totonaco]]<br>#DnD <br>Bárbaro: Trilha da Fera<br>Tumba da Aniquilação (30+ sessões, 2024-atual) ▶️<br>        Totonaco entra em fúria. Mas ao contrário dos bárbaros do norte, cuja fúria se manifesta em gritos, rosnados e uma explosão de energia no corpo, a fúria de Totonaco parece acontecer na alma, de forma silenciosa: Seu corpo se retrai, ele puxa sua respiração para dentro, fechando os olhos, e quando seus olhos se abrem, estão brilhando como dois topázios de um azul claro vibrante, e entre seus lábios caninos afiados se exibem.
 
 Totonaco não possui muitos pelos corporais - exceto quando sua semi-transformação acontece. Então, sua pele dos braços e pernas se cobre de um pelo um pouco mais denso que o natural, e quem se aproxima consegue ver pequenas pintas de onça padronizadas, sob determinados ângulos.
 
@@ -112,9 +110,4 @@ Tacl não vê uma grande guerra há pelo menos 30 anos, embora combates com outr
 
 A maior parte dos habitantes de Tacl fala e escreve Comum, embora misturem um pouco do Nauat, sua língua originária, na fala e escrita.
 
-
-
----
-<html>
-<p style="font-size: 10pt; font-face:'UnifrakturCook'; text-align=end;"><a href="https://cajuzics.github.io/personagens/personagens/">/personagens</a></p>
-</html>
+###### [[Personagens/_personagens\|_personagens]]
