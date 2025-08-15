@@ -13,6 +13,13 @@
 }
 
 @font-face {
+    font-family: 'FunnelReg';
+    src: url('/styles/user/fonts/funnel-display/FunnelDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Linik';
     src: url('/styles/user/fonts/linik/LinikSans-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -38,8 +45,8 @@ body {
     --h4-color: #a577d9;
     --h5-font: "Funnel";
     --h5-color: #a577d9;
-    --h6-font: "Funnel";
-    --h6-size: 1em;
+    --h6-font: "FunnelReg";
+    --h6-size: 0.8em;
     --h6-color: #a577d9;
     --font-text-theme: "Linik";
 }
