@@ -142,3 +142,11 @@ Parecido demais.
 E aquilo era tenebroso.
 
 Um calafrio se espalhou pela espinha de Cinco quando notou nos trejeitos do filho que ele estava… Ele estava seguindo os mesmos passos do pai…
+
+
+
+
+---
+<html>
+<p style="font-size: 10pt; font-face:'UnifrakturCook'; text-align=end;"><a href="https://cajuzics.github.io/personagens/personagens/">/personagens</a></p>
+</html>

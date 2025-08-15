@@ -105,6 +105,8 @@ Sinceramente, quem ele pensa que é? Um manézinho que tem uma esquina. Shantel 
 
 
 
-
-
+---
+<html>
+<p style="font-size: 10pt; font-face:'UnifrakturCook'; text-align=end;"><a href="https://cajuzics.github.io/personagens/personagens/">/personagens</a></p>
+</html>
 

@@ -47,3 +47,9 @@ Por Bao-Bao.
 
 
 [^1]: Ancestralidade mista entre humanos e símios. Mais próximos dos humanos, os indivíduos possuem alguns traços herdados dos símios, como a cauda, orelhas grandes e leve penugem facial, além da agilidade nata da espécie.
+
+
+---
+<html>
+<p style="font-size: 10pt; font-face:'UnifrakturCook'; text-align=end;"><a href="https://cajuzics.github.io/personagens/personagens/">/personagens</a></p>
+</html>

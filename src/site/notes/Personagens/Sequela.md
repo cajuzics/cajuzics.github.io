@@ -19,3 +19,9 @@ Sequela tampouco tinha ninguém para vingar, nenhuma terra para salvar. Se fosse
 ![5000_milhas.webp](/img/user/Imagens/Personagens/Outros/5000_milhas.webp)
 
 [^1]: [https://forgottenrealms.fandom.com/wiki/Halruaa](https://forgottenrealms.fandom.com/wiki/Halruaa)	
+
+
+---
+<html>
+<p style="font-size: 10pt; font-face:'UnifrakturCook'; text-align=end;"><a href="https://cajuzics.github.io/personagens/personagens/">/personagens</a></p>
+</html>

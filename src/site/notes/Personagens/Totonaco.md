@@ -111,3 +111,10 @@ Tacl é uma tribo bem desenvolvida em uma ilha isolada ao norte de Chult. A trib
 Tacl não vê uma grande guerra há pelo menos 30 anos, embora combates com outras tribos sejam constantes.
 
 A maior parte dos habitantes de Tacl fala e escreve Comum, embora misturem um pouco do Nauat, sua língua originária, na fala e escrita.
+
+
+
+---
+<html>
+<p style="font-size: 10pt; font-face:'UnifrakturCook'; text-align=end;"><a href="https://cajuzics.github.io/personagens/personagens/">/personagens</a></p>
+</html>
