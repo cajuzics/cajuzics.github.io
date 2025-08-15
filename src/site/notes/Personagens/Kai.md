@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/personagens/kai/","tags":["daggerheart"]}
+{"dg-publish":true,"permalink":"/personagens/kai/","tags":["daggerheart"],"dgShowInlineTitle":true}
 ---
 
 

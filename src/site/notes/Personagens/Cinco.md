@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/personagens/cinco/","tags":["cyberpunk"]}
+{"dg-publish":true,"permalink":"/personagens/cinco/","tags":["cyberpunk"],"dgShowInlineTitle":true}
 ---
 
 ## 2061.
