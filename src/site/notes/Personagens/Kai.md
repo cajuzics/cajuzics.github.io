@@ -12,7 +12,6 @@
 Kai suspirou. Ele também queria, embora não achasse que seria capaz de encontrar nada na rede de informações. Ele, que por meses teria se contentado em coletar sucata dos remanescentes comuns, agora se frustrava sempre que se deparava com um que não estivesse infectado. Sua relação com os remanescentes tinha mudado muito nos últimos dois meses: Antes ele precisava apenas dos restos e das peças. Agora, com vários infectados, ele precisava das respostas.
 
 Olhou para o alto da montanha, onde estava o vilarejo. O seu mundo pessoal era aquele entorno. O lugar onde nasceu, cresceu, aprendeu a lutar, trabalhou. Do outro lado da montanha, estava o resto do continente. Extensas florestas, desfiladeiros e grandes cidades de metal. Não tinha ido muito longe dali. Mas talvez fosse a hora de ir.
-
 ## A Perna Errante
 
 A academia estava tranquila. Quase silenciosa, não fossem os chutes de Kai no saco de areia. Ele girou no ar e acertou um chute lateral, que balançou o saco e o barulho ressonou pela corrente que o suspendia. Quando se preparava para seguir o treino, alguém _escalou_ suas costas.
@@ -44,6 +43,12 @@ Por dois anos, a perna de Bao-Bao tinha sido um dos grandes feitos da engenharia
 Ele tinha conversado com Shiann na noite passada, quando estavam deitados. Ela não tinha protestado, mas Kai sentiu ela se contrair em seus braços, um pouco desconfortável. Ele teria que ir atrás das informações, para mais longe, para além do vilarejo, para buscar entender a infecção.
 
 Por Bao-Bao.
+
+
+| Classe            | Subclasse       | Espécie             | Comunidade | Ikonis    | Idade | Altura |
+| ----------------- | --------------- | ------------------- | ---------- | --------- | ----- | ------ |
+| Brawler (Lutador) | Artista Marcial | Gopu (Humano+Símio) | Montanhesa | Soqueiras | 26    | 171 cm |
+
 
 
 [^1]: Ancestralidade mista entre humanos e símios. Mais próximos dos humanos, os indivíduos possuem alguns traços herdados dos símios, como a cauda, orelhas grandes e leve penugem facial, além da agilidade nata da espécie.
