@@ -6,6 +6,8 @@
 
 Lachesis é uma grande cidade no deserto cujo berço reside numa mitologia: Há milênios, um grande monstro serpentuoso - chamado Lachesis - passou pelo local, deixando sua marca na terra árida, que formou um canal que atravessa a cidade. As monções vieram, e o canal se transformou em um rio. E o rio, por fim, se tornou o início de um povoado, que cresceu e prosperou nos séculos seguintes. A lenda do monstro Lachesis é conhecida por toda criança na cidade, e seus registros estão em qualquer biblioteca local, ainda que rotulada como mitologia. Há quem diga que as erosões carvadas nas rochas que permeiam o rio, na realidade, são marcas das escamas da criatura. E não há como negar, que de fato, são muito similares.
 
+New bricks!!!
+
 ![lachesis.jpg](/img/user/Imagens/Mesas/lachesis.jpg)
 
 #### Qual é a principal atividade econômica de Lachesis? Do que os seus habitantes se ocupam a maior parte do tempo?
@@ -30,3 +32,4 @@ Visto o foco na agricultura local, a culinária se baseia na produção da cidad
 A caravana guiada por camelos aproxima-se de Lachesis, tendo atravessado a estrada seca e poeirenta do deserto de Lachios. Nas duas carroças que se arrastam debaixo do sol escaldante, acomodam-se na sombra do toldo abaulado alguns passageiros comuns: locais que voltam ao lar e viajantes convencionais, chegando na cidade à negócios, para visitar a família, ou a lazer. Entre os passageiros, um indivíduo singular se destaca. Um quacho chamado Jalileu, visitante recorrente da cidade, na sua função de caixeiro viajante - apesar de não suportar o calor e a aridez local: Jalileu parece não ver a hora de resolver seus contratos de compra de tecidos e dar o fora dali. A viagem é tranquila, mas quando a carruagem está próxima de chegar em Lachesis... o perigo se aproxima.
 
 Esta é uma aventura que envolve luta, exploração urbana e investigação. Em cada esquina da cidade, as pistas rodopiam e o cacto cintila mais forte.
+
