@@ -106,6 +106,6 @@ Sinceramente, quem ele pensa que é? Um manézinho que tem uma esquina. Shantel 
 
 ---
 
-###### [[Personagens/_personagens\|_personagens]]
+###### [[Personagens/Personagens\|Personagens]]
 
 [^1]: Criança que fica nas esquinas de pontos de droga, prontas para enviar sinais caso apareça problema ou a polícia. Também às vezes são responsáveis por fazer o transporte de drogas ou dinheiro.

@@ -20,4 +20,4 @@ Sequela tampouco tinha ninguém para vingar, nenhuma terra para salvar. Se fosse
 
 [^1]: [https://forgottenrealms.fandom.com/wiki/Halruaa](https://forgottenrealms.fandom.com/wiki/Halruaa)	
 
-###### [[Personagens/_personagens\|_personagens]]
+###### [[Personagens/Personagens\|Personagens]]

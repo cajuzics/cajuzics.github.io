@@ -53,5 +53,5 @@ Por Bao-Bao.
 
 [^1]: Ancestralidade mista entre humanos e símios. Mais próximos dos humanos, os indivíduos possuem alguns traços herdados dos símios, como a cauda, orelhas grandes e leve penugem facial, além da agilidade nata da espécie.
 
-###### [[Personagens/_personagens\|_personagens]]
+###### [[Personagens/Personagens\|Personagens]]
 

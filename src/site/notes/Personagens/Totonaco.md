@@ -112,4 +112,4 @@ Tacl não vê uma grande guerra há pelo menos 30 anos, embora combates com outr
 
 A maior parte dos habitantes de Tacl fala e escreve Comum, embora misturem um pouco do Nauat, sua língua originária, na fala e escrita.
 
-###### [[Personagens/_personagens\|_personagens]]
+###### [[Personagens/Personagens\|Personagens]]
