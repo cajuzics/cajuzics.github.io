@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"\"personagens/chuzmo\"","permalink":"/\"personagens/chuzmo\"/","tags":["vampiro"],"dgShowInlineTitle":true}
+{"dg-publish":true,"dg-permalink":"personagens/chuzmo","permalink":"/personagens/chuzmo/","tags":["vampiro"],"dgShowInlineTitle":true}
 ---
 
 Martin Lopez nasceu e cresceu no bairro de La Casa, filho de uma mãe adolescente viciada em uma casa problemática e um pai desconhecido. Com uma mãe que também não lhe dava a mínima, Martin foi morar com sua bisabuela (bisavó) Guadalupe, que vivia sozinha. Guadalupe não tinha uma boa estrutura financeira e seu dinheiro era constantemente minado pelo resto da família, o que fez com que Martin largasse a escola, aos 10 anos, para se tornar um _corner boy[^1]._ Sem qualquer motivo, Martin começou a ser chamado de Chuzmo pelos garotos da rua. Chuzmo chegou a posição de ser o braço, embora sua esquina fosse tranquila e nunca teve que lidar com violência mais grave do que dar um jeito em informantes pegos ou grupos rivais montando ponto nas proximidades.

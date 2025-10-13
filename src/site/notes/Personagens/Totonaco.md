@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"\"personagens/totonaco\"","permalink":"/\"personagens/totonaco\"/","tags":["DnD"],"dgShowInlineTitle":true}
+{"dg-publish":true,"dg-permalink":"personagens/totonaco","permalink":"/personagens/totonaco/","tags":["DnD"],"dgShowInlineTitle":true}
 ---
 
 

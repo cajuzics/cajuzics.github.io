@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"\"personagens/sequela\"","permalink":"/\"personagens/sequela\"/","tags":["DnD"],"dgShowInlineTitle":true}
+{"dg-publish":true,"dg-permalink":"personagens/sequela","permalink":"/personagens/sequela/","tags":["DnD"],"dgShowInlineTitle":true}
 ---
 
 ![character-sequela.webp|left ----|420](/img/user/Imagens/Personagens/character-sequela.webp)"Não largo meu bom e velho cachimbo. Com uma tragada, um mundo se abre diante dos meus olhos."

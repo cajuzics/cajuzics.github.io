@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"\"personagens/keisuke\"","permalink":"/\"personagens/keisuke\"/","tags":["avatar-legends"],"dgShowInlineTitle":true}
+{"dg-publish":true,"dg-permalink":"personagens/keisuke","permalink":"/personagens/keisuke/","tags":["avatar-legends"],"dgShowInlineTitle":true}
 ---
 
 ## O apito
