@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"\"personagens\"","permalink":"/\"personagens\"/"}
+{"dg-publish":true,"dg-permalink":"personagens","permalink":"/personagens/"}
 ---
 
 # Personagens
