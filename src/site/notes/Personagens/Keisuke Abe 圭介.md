@@ -92,7 +92,7 @@ Ele sentiu algo pesado no bolso do seu pijama. O apito. Quando tinha colocado aq
 
 Keisuke correu. E quando correu na direção oposta à sua casa, o mundo parou de girar.
 
-## Fuligem
+# Fuligem
 Ele se espremeu para fora da chaminé, carregando consigo poeira do carvão e a escova que usava para esfregar o acúmulo da sujeira. Seu rosto estava coberto por fuligem.
 
 "Ei, moleque, tudo certo aí?", o velho lá embaixo gritou
