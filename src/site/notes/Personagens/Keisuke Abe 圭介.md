@@ -107,3 +107,24 @@ Caminhou pelas ruas do anel inferior de Ba Sing Se. Fazia menos de um mês que t
 "E aí, Fuligem? Muitas chaminés hoje?"
 
 "Oi, Lee. Mais do que o normal. Um missô, por favor". O menino, que atendia pelo nome de Fuligem, pegou o dinheiro no bolso. Quando sacou as moedas, algo mais veio na sua mão. Um apito de bisão.
+
+---
+---
+
+**Qual era o papel estável e confortável ao qual você se acomodava até recentemente?**
+Aprendiz, bem colocado na sociedade, na Nação do Fogo
+
+**Quem te inspira a se dedicar a uma causa?**
+Meu Mestre Baku, que tentou por muito tempo me elucidar sobre o que estava acontecendo, mas eu fui tolo para não entender o que ele dizia.
+
+**Quem se preocupa com você e não quer que você exagere e acabe se machucando?**
+Meu Mestre Baku deve estar preocupado comigo, se tiver chegado aos seus ouvidos que eu desapareci.
+
+**Que símbolo você carrega para se lembrar de uma pessoa amada ou amiga que se importava demais e isso acabou sendo sua derrocada?**
+Um apito de bisão, do meu (amigo?) Shun.
+
+**Por que você está comprometido com esse grupo ou propósito?**
+Quero acabar com a guerra e com as mentiras da Nação do Fogo.
+
+
+![[ficha_Keisuke.pdf]]
