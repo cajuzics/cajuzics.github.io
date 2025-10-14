@@ -12,7 +12,7 @@
 | ![token-chuzmo.webp](/img/user/Imagens/Personagens/Tokens/token-chuzmo.webp)   |     | [[Personagens/Chuzmo\|Chuzmo]]<br>#vampiro <br>Brujah de Anarch<br>Noites em New Star City (5 sessões, 2024) ⛔                      |     |
 | ![token-cinco.webp](/img/user/Imagens/Personagens/Tokens/token-cinco.webp)    |     | [[Personagens/Cinco\|Cinco]]<br>#cyberpunk <br>Nômade<br>Lendas de Night City (9 sessões, 2025) ❌                                  |     |
 | ![token-kai.webp](/img/user/Imagens/Personagens/Tokens/token-kai.webp)      |     | [[Personagens/Kai\|Kai]]<br>#daggerheart <br>Lutador<br>Gambiarra (0 sessões, 2025) ❌                                            |     |
-|                          |     | [[Personagens/Keisuke Abe 圭介\|Keisuke Abe 圭介]]<br>#avatar-legends<br>O Desencaminhado<br>Avatar Legends (2025) ▶️                           |     |
+| ![token-keisuke.webp](/img/user/Imagens/Personagens/Tokens/token-keisuke.webp)  |     | [[Personagens/Keisuke Abe 圭介\|Keisuke Abe 圭介]]<br>#avatar-legends<br>O Desencaminhado<br>Avatar Legends (2025) ▶️                           |     |
 |                          |     |                                                                                                                 |     |
 |                          |     |                                                                                                                 |     |
 
